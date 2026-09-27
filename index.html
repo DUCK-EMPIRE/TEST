@@ -254,7 +254,7 @@
                 const link = document.createElement('a');
                 
                 if (game.customPage && game.customPage !== '') {
-                    link.href = `CUSTOM-PAGES/${game.customPage}`; 
+                    link.href = `pages/${game.customPage}`; 
                 } else {
                     link.href = `template.html?game=${encodeURIComponent(game.title)}`;
                 }
